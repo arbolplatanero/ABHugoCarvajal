@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTA DE CAMISETAS DE PAISES</title>
+    <link rel="stylesheet" href="../css1/carrito.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo1.ico">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">TIENDA DE CAMISETAS DE FUTBOL</p>
+            <nav> 
+                <a href="../pages/producto.html">Productos</a>
+                <a href="../pages/quiensomos.html">Quienes somos?</a>
+                <a href="../pages/formulario.html">Formulario de Contacto</a>
+                <a href="../index.html">Inicio</a>
+            </nav>
+        </div>
+    </header>
+    <br><br><br><br>
+    <h1>CAMISETA PAISES</h1>
+        <section id="carrito">
+            <h2>🛒 Carrito</h2>
+            <div id="itemsCarrito"></div>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        </section>
+        <div class="grid-container"> 
+            <div class="producto" id="producto1">
+                <h6>CAMISETA ESPAÑA</h6>
+                    <div class="img-container">
+                    <img src="../img/españa.jpg" alt=""><br>
+                    </div>
+                <h7>85€</h7><br>
+                <button onclick="agregarAlCarrito('Camiseta de España', 85)">Agregar al Carrito</button>
+            </div>
+
+            <div class="producto" id="producto2">
+                <h6>CAMISETA ALEMANIA</h6>
+                    <div class="img-container">
+                    <img src="../img/alemania.jpg" alt=""><br>
+                    </div>
+                <h7>80€</h7><br>
+                <button onclick="agregarAlCarrito('Camiseta de Alemania', 80)">Agregar al Carrito</button>
+            </div>
+
+            <div class="producto" id="producto3">
+                <h6>CAMISETA ARGENTINA</h6>
+                    <div class="img-container">
+                    <img src="../img/argentina.jpg" alt=""><br>
+                    </div>
+                <h7>75€</h7><br>
+                <button onclick="agregarAlCarrito('Camiseta de Argentina', 75)">Agregar al Carrito</button>
+            </div>
+          
+            <div class="producto" id="producto4">
+                <h6>CAMISETA FRANCIA</h6>
+                    <div class="img-container">
+                    <img src="../img/francia.jpg" alt=""><br>
+                    </div> 
+                <h7>65€</h7><br>
+                <button onclick="agregarAlCarrito('Camiseta de Francia', 65)">Agregar al Carrito</button>
+            </div>
+
+            <div class="producto" id="producto5">
+                <h6>CAMISETA SENEGAL</h6>
+                    <div class="img-container">
+                    <img src="../img/senegal.jpg" alt=""><br>
+                    </div>
+                <h7>55€</h7><br>
+                <button onclick="agregarAlCarrito('Camiseta de Senegal', 55)">Agregar al Carrito</button>
+            </div>
+
+            <div class="producto" id="producto6">
+                <h6>CAMISETA COSTA RICA</h6>
+                    <div class="img-container">
+                    <img src="../img/costa-rica.jpg" alt=""><br>
+                    </div>
+                <h7>45€</h7><br>
+                <button onclick="agregarAlCarrito('Camiseta de Costa Rica', 45)">Agregar al Carrito</button>
+            </div>
+
+            <div class="producto" id="producto7">
+                <h6>CAMISETA BRASIL</h6>
+                <div class="img-container">
+                    <img src="../img/brasil.jpg" alt=""><br>
+                    </div>
+                <h7>70€</h7><br>
+                <button onclick="agregarAlCarrito('Camiseta de Brasil', 55)">Agregar al Carrito</button>
+            </div>
+
+            <div class="producto" id="producto8">
+                <h6>CAMISETA PORTUGAL</h6>
+                <div class="img-container">
+                    <img src="../img/portugal.jpg" alt=""><br>
+                    </div>
+                <h7>60€</h7><br>
+                <button onclick="agregarAlCarrito('Camiseta de Portugal', 60)">Agregar al Carrito</button>
+            </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; TUS MEJORES CAMISETAS DE FUTBOL 
+            Realizado por Hugo Carvajal</p>
+            </div>
+    </footer>
+
+    <script src="../js1/carrito.js"></script>
+</body>
+</html>
+

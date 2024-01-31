@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORMULARIO DE COMPRA</title>
+        <link rel="stylesheet" href="../css1/pedidos.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../img/logo1.ico">
+        <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <p class="logo">TIENDA DE CAMISETAS DE FUTBOL</p>
+                <nav>
+                    <a href="../pages/producto.html">Productos</a>
+                    <a href="../pages/quiensomos.html">Quienes somos?</a>
+                    <a href="../pages/formulario.html">Formulario de Contacto</a>
+                    <a href="../index.html">Inicio</a>
+                </nav>
+            </div>
+        </header>
+        <br><br><br><br>
+        <form id="contactForm">
+            <br>
+            <h2>Formulario de Contacto</h2>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]+" placeholder="Numero de télefono" required title="Ingrese solo números">
+            <input type="text" name="mensaje" placeholder="Escriba un mensaje">
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <script src="../js1/form.js"></script>
+
+        <footer>
+            <div class="container">
+                <p>&copy; TUS MEJORES CAMISETAS DE FUTBOL</p>
+            </div>
+            <BR></BR>
+            <p> Realizado por Hugo Carvajal </p>
+        </footer>
+    </body>
+
+</html>
